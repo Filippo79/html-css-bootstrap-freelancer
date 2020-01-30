@@ -12,18 +12,66 @@ nav  a {
     font-size: 15px;
     padding: 10px;
 }
-.container-fluid {
+.verde {
     background-color: #1abc9c;
-    height: 800px;
+    height: 680px;
 }
 
 .omino {
     height: 250px;
+    /* chiedere a Luca perche margin 0 non ha funzionato */
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
 .start {
     color: white;
     font-size: 70px;
     display: ruby;
     transform: translate(50%);
+}
+
+.testo {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.immagine {
+    /* margin: 0 auto; */
+}
+
+.stella {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.glyphicon {
+    color: white;
+    font-size: 40px;
+}
+
+.bianco {
+    background-color: white;
+}
+
+.testo-nero {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.nero {
+    color: #2c3e50;
+    font-size: 40px;
+}
+
+.cubi {
+    height: 280px;
+}
+
+.img-cubi {
+    height: 270px;
 
 }
