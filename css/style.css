@@ -5,6 +5,12 @@
     font-size: 30px;
     line-height: 100px;
 }
+
+.container {
+    text-align: center;
+
+}
+
 nav  a {
     color: white;
 }
@@ -19,8 +25,6 @@ nav  a {
 
 .omino {
     height: 250px;
-    /* chiedere a Luca perche margin 0 non ha funzionato */
-    margin-left: 450px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -32,10 +36,14 @@ nav  a {
     transform: translate(50%);
 }
 
-.testo {
+.testo-bianco {
     text-align: center;
     color: white;
     font-size: 20px;
+}
+
+.testo p {
+    color: white;
 }
 
 .immagine {
@@ -55,6 +63,7 @@ nav  a {
 
 .bianco {
     background-color: white;
+    height: 800px;
 }
 
 .testo-nero {
@@ -73,5 +82,28 @@ nav  a {
 
 .img-cubi {
     height: 270px;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
 
+.testo-left {
+    margin-left: 250px;
+    margin-top: 15px;
+    text-align: left;
+    float: left;
+    height: 300px;
+    width: 270px;
+    font-size: 20px;
+    color: white;
+}
+
+.testo-right {
+    margin-right: 250px;
+    margin-top: 15px;
+    text-align: left;
+    float: right;
+    height: 300px;
+    width: 270px;
+    font-size: 20px;
+    color: white;
 }
