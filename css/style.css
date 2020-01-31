@@ -23,7 +23,6 @@ nav  a {
 
 .verde {
     background-color: #1abc9c;
-    height: 680px;
 }
 
 .omino {
@@ -79,10 +78,15 @@ nav  a {
     color: #2c3e50;
     font-size: 40px;
 }
+.bianco .ms--star::before,
+.bianco .ms--star::after {
+    background-color: #2c3e50;
+}
+
 
 .bianco {
     background-color: white;
-    height: 800px;
+    padding: 50px;
 }
 
 .testo-nero {
@@ -96,23 +100,21 @@ nav  a {
 }
 
 .testo-left {
-    margin-left: 250px;
+    /* margin-left: 250px; */
     margin-top: 15px;
     text-align: left;
-    float: left;
-    height: 300px;
-    width: 270px;
+    /* float: left; */
+    
     font-size: 20px;
     color: white;
 }
 
 .testo-right {
-    margin-right: 250px;
+    /* margin-right: 250px; */
     margin-top: 15px;
     text-align: left;
-    float: right;
-    height: 300px;
-    width: 270px;
+    /* float: right; */
+
     font-size: 20px;
     color: white;
 }
