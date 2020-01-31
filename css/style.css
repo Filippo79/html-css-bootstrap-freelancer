@@ -1,10 +1,11 @@
-#navbar {
+header, #navbar {
     height: 100px;
     background-color: #2c3e50;
     text-align: center;
     font-size: 30px;
     line-height: 100px;
 }
+
 
 .container {
     text-align: center;
@@ -14,10 +15,12 @@
 nav  a {
     color: white;
 }
+
 .scelta {
     font-size: 15px;
     padding: 10px;
 }
+
 .verde {
     background-color: #1abc9c;
     height: 680px;
@@ -50,14 +53,30 @@ nav  a {
     /* margin: 0 auto; */
 }
 
-.stella {
+.ms--star {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
-.glyphicon {
+.ms--star::before,
+.ms--star::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    bottom:20px;
+}
+
+.ms--star-bianca {
     color: white;
+    font-size: 40px;
+}
+
+.ms--star-nera {
+    color: #2c3e50;
     font-size: 40px;
 }
 
@@ -71,17 +90,7 @@ nav  a {
     color: #2c3e50;
 }
 
-.nero {
-    color: #2c3e50;
-    font-size: 40px;
-}
-
-.cubi {
-    height: 280px;
-}
-
 .img-cubi {
-    height: 270px;
     border-radius: 15px;
     padding: 5px 5px;
 }
